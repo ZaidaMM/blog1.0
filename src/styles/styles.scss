@@ -1,1 +1,98 @@
+//Colours
+$primary-color: rgb(2, 8, 38);
+$primary-opaque-color: rgba(2, 8, 38, 0.5);
+$secondary-color: whitesmoke;
+$light-color: rgb(186, 228, 243);
+$vibrant-color: #d9a138;
+$white-color: #fff;
 
+// utlis
+/* Backgrounds */
+.bg-light {
+  color: $primary-color;
+  background-color: $secondary-color;
+}
+.bg-dark {
+  color: $secondary-color;
+  background-color: $primary-color;
+}
+/* Titles */
+.vibrant {
+  color: $vibrant-color;
+}
+/* Buttons */
+.btns {
+  display: flex;
+  flex-direction: row;
+}
+.btn-dark {
+  background-color: $primary-color;
+  border-radius: 1.4rem;
+  border: 1px solid $vibrant-color;
+  width: fit-content;
+  margin: 5px;
+  transition: background-color 0.3s ease-in;
+}
+.btn-dark:hover {
+  cursor: pointer;
+  background-color: $vibrant-color;
+}
+
+.btn-light {
+  display: block;
+  padding: 10px;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: $vibrant-color;
+  border-radius: 1.4rem;
+  border: 1px solid $vibrant-color;
+  width: fit-content;
+  margin: 5px;
+}
+.btn-light:hover {
+  cursor: pointer;
+  background-color: $primary-color;
+}
+
+.Hero {
+  color: white;
+  .heroContent {
+    margin-bottom: 6rem;
+    margin-left: 6rem;
+    .heroTitle {
+      font-size: 7rem;
+      letter-spacing: 5px;
+    }
+    .heroText {
+      font-size: 3rem;
+      padding-left: 0.5rem;
+    }
+  }
+}
+.MainNavbar {
+  background-color: $primary-opaque-color;
+  color: $white-color;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  .navbar-logo {
+    margin-left: 20px;
+    margin-top: 7px;
+    padding: 3px 7px;
+    background-color: $primary-opaque-color;
+    border-radius: 3px;
+    border: 1px solid $vibrant-color;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+.Footer {
+  background-color: $primary-color;
+  color: $white-color;
+  font-size: 0.75rem;
+  height: 50px;
+}
