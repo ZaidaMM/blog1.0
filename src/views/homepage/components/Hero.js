@@ -7,7 +7,7 @@ function Hero() {
       style={{
         backgroundImage: 'url(../../images/mainBg.jpg)',
         backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
+        backgroundPosition: 'top',
         backgroundSize: 'cover',
         height: '100vh',
       }}

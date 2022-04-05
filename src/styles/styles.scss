@@ -5,6 +5,7 @@ $secondary-color: whitesmoke;
 $light-color: rgb(186, 228, 243);
 $vibrant-color: #d9a138;
 $white-color: #fff;
+$grey-color: rgb(128, 128, 128);
 
 // utlis
 /* Backgrounds */
@@ -27,10 +28,11 @@ $white-color: #fff;
 }
 .btn-dark {
   background-color: $primary-color;
+  letter-spacing: 1px;
   border-radius: 1.4rem;
   border: 1px solid $vibrant-color;
-  width: fit-content;
-  margin: 5px;
+  // width: fit-content;
+  margin: 10px;
   transition: background-color 0.3s ease-in;
 }
 .btn-dark:hover {
@@ -48,13 +50,13 @@ $white-color: #fff;
   border-radius: 1.4rem;
   border: 1px solid $vibrant-color;
   width: fit-content;
-  margin: 5px;
+  margin: 10px;
 }
 .btn-light:hover {
   cursor: pointer;
   background-color: $primary-color;
 }
-
+//HERO
 .Hero {
   color: white;
   .heroContent {
@@ -70,6 +72,8 @@ $white-color: #fff;
     }
   }
 }
+
+//MAIN NAVBAR
 .MainNavbar {
   background-color: $primary-opaque-color;
   color: $white-color;
@@ -77,10 +81,9 @@ $white-color: #fff;
   top: 0;
   left: 0;
   width: 100%;
-  height: 70px;
+  height: 75px;
+  z-index: 4;
   .navbar-logo {
-    margin-left: 20px;
-    margin-top: 7px;
     padding: 3px 7px;
     background-color: $primary-opaque-color;
     border-radius: 3px;
@@ -88,11 +91,42 @@ $white-color: #fff;
     a {
       text-decoration: none;
     }
+    .navbar-toggler {
+      color: $white-color;
+    }
+  }
+  .link {
+    font-size: 0.75rem;
+    padding: 3px 7px;
+    color: $white-color;
   }
 }
+
+//FOOTER
 .Footer {
   background-color: $primary-color;
   color: $white-color;
   font-size: 0.75rem;
   height: 50px;
+}
+
+//BLOG ITEM
+.BlogItem {
+  .blog-published {
+    color: $grey-color;
+    font-size: 0.85rem;
+  }
+}
+
+//BLOG PAGE
+.BlogPage {
+}
+
+//PAGE NOT FOUND
+.PageNotFound {
+  height: 100vh;
+  p {
+    padding-top: 100px;
+    padding-left: 10px;
+  }
 }
