@@ -7,8 +7,6 @@ import {
   NavLink,
   NavbarBrand,
   Nav,
-  NavbarText,
-  Button,
 } from 'reactstrap';
 
 function MainNavbar() {

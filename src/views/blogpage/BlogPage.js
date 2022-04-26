@@ -1,14 +1,6 @@
 import React from 'react';
 import BlogList from '../homepage/components/BlogList';
-import {
-  Card,
-  CardImg,
-  CardImgOverlay,
-  CardBody,
-  CardTitle,
-  CardText,
-} from 'reactstrap';
-import { Link } from 'react-router-dom';
+import { Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
 
 const BlogPage = () => {
   return (
