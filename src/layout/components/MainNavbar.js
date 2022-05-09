@@ -15,17 +15,21 @@ function MainNavbar() {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar className='MainNavbar  ' expand='md'>
+    <Navbar className='MainNavbar navbar-dark' expand='md'>
       <NavbarBrand>
-        <h1 className='navbar-logo '>
+        <h1 className='navbar-logo'>
           <a href='/' className='text-white  align-items-center'>
             Z<span className='vibrant'>M</span>
           </a>
         </h1>
       </NavbarBrand>
-      <NavbarToggler onClick={toggle} className='navbar-toggler' />
-      <Collapse navbar isOpen={isOpen} className='justify-content-end my-1'>
-        <Nav navbar className='  d-flex  '>
+      <NavbarToggler onClick={toggle} className='navbar-toggler vibrant' />
+      <Collapse
+        navbar
+        isOpen={isOpen}
+        className='justify-content-end my-1 navbar-collapse'
+      >
+        <Nav navbar className='d-flex navbar-dark vibrant'>
           <NavItem>
             <NavLink href='/' target='_blank' className='link btn btn-dark'>
               Home
