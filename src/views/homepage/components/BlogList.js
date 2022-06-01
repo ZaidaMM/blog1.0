@@ -6,7 +6,7 @@ const BlogList = () => {
   return (
     <div className='BlogList'>
       <div className='row m-4'>
-        {articles.map((article) => {
+        {[...articles].reverse().map((article) => {
           return (
             <div className='col-md-4 mb-4'>
               <Article

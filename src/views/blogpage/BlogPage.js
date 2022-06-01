@@ -19,41 +19,45 @@ const BlogPage = () => {
           <CardText tag='h2'>My third blog</CardText>
           <CardText>
             <p>
-              Deciding to enter a full-stack bootcamp has been the best way to
-              give a structure to any previous knowledge that I had acquired as
-              a self-taught web developer.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <p>
-              The journey started about a year ago, when I took the first
-              courses on FreeCodeCamp. HTML and CSS left me with the curiosity
-              to learn more so I started learning JavaScript. By the time I
-              realised that JavaScript was going to require much more dedication
-              and practice, some time had passed and I started to feel the
-              frustation.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt.
             </p>
             <p>
-              It was at that point that my sister introduced me to the idea of
-              following the bootcamp that she had recently finished, and after
-              some consideration I decided to follow her steps and got enrolled.
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit, sed quia non numquam eius modi
+              tempora incidunt ut labore et dolore magnam aliquam quaerat
+              voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+              ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur? Quis autem vel eum iure reprehenderit qui in ea
+              voluptate velit esse quam nihil molestiae consequatur, vel illum
+              qui dolorem eum fugiat quo voluptas nulla pariatur?
             </p>
             <p>
-              I can only compare my experience at the bootcamp with the path I
-              was following when studying on my own, and I must admit that I did
-              find that structure I was after. And not just that, I have also
-              been exposed to technologies that I had not considered before.
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga.
             </p>
             <p>
-              I have now finished the frontend part of the bootcamp and I feel
-              that I have reinforced the foundations of HTML and Bootstrap, and
-              I have reached a much better level of JavaScript which will allow
-              me to keep improving. This has also been helpful now that I have
-              started studying data structures and algorithms.
-            </p>
-            <p>
-              Currently I am studying the last module of the bootcamp which is
-              related to the backend. I had not studied it before so I am quite
-              excited of being exposed to new technologies, and the idea of it
-              helping me rounding up my knowledge as a full stack developer.
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur? Quis autem vel eum iure reprehenderit qui in ea
+              voluptate velit esse quam nihil molestiae consequatur, vel illum
+              qui dolorem eum fugiat quo voluptas nulla pariatur?
             </p>
           </CardText>
           <CardText className='blog-published'>
