@@ -22,35 +22,34 @@ $grey-color: rgb(128, 128, 128);
   color: $vibrant-color;
 }
 /* Buttons */
-.btns {
+.btn {
   display: flex;
   flex-direction: row;
-}
-.btn-dark {
-  background-color: $primary-color;
+  padding: 10px;
+  margin: 0 14px;
+  font-size: 0.6rem;
+  font-weight: 700;
   letter-spacing: 1px;
   border-radius: 1.4rem;
+  text-transform: uppercase;
+}
+.btn-dark {
+  color: $white-color;
+  background-color: $primary-color;
   border: 1px solid $vibrant-color;
-  // width: fit-content;
-  margin: 10px;
-  transition: background-color 0.3s ease-in;
+  transition: background-color 0.2s ease-in;
 }
 .btn-dark:hover {
+  color: $white-color;
   cursor: pointer;
   background-color: $vibrant-color;
+  border: 1px solid $vibrant-color;
 }
 
 .btn-light {
   display: block;
-  padding: 10px;
-  font-size: 0.6rem;
-  font-weight: 700;
-  letter-spacing: 1px;
   background-color: $vibrant-color;
-  border-radius: 1.4rem;
   border: 1px solid $vibrant-color;
-  width: fit-content;
-  margin: 10px;
 }
 .btn-light:hover {
   cursor: pointer;
@@ -75,8 +74,8 @@ $grey-color: rgb(128, 128, 128);
 
 //MAIN NAVBAR
 .MainNavbar {
-  background-color: $primary-opaque-color;
-  color: $white-color;
+  // background-color: $primary-color;
+  // color: $white-color;
   position: absolute;
   top: 0;
   left: 0;
@@ -85,17 +84,12 @@ $grey-color: rgb(128, 128, 128);
   z-index: 4;
   .navbar-logo {
     padding: 3px 7px;
-    background-color: $primary-opaque-color;
+    background-color: $primary-color;
     border-radius: 3px;
     border: 1px solid $vibrant-color;
     a {
       text-decoration: none;
     }
-  }
-  .link {
-    font-size: 0.75rem;
-    padding: 3px 7px;
-    color: $white-color;
   }
 }
 
@@ -116,7 +110,6 @@ $grey-color: rgb(128, 128, 128);
 }
 
 //BLOG PAGE
-
 
 //PAGE NOT FOUND
 .PageNotFound {

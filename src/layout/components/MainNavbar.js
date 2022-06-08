@@ -27,18 +27,22 @@ function MainNavbar() {
       <Collapse
         navbar
         isOpen={isOpen}
-        className='justify-content-end my-1 navbar-collapse'
+        className='justify-content-end my-1 navbar-collapse text-white'
       >
         <Nav navbar className='d-flex navbar-dark vibrant'>
           <NavItem>
-            <NavLink href='/' target='_blank' className='link btn btn-dark'>
+            <NavLink
+              href='/'
+              target='_blank'
+              className='link btn btn-dark text-white'
+            >
               Home
             </NavLink>
           </NavItem>
           <NavItem>
             <NavLink
               href='https://www.zaidamontano.tech/#about-section'
-              className='link btn btn-dark'
+              className='link btn btn-dark text-white'
               target='_blank'
             >
               About
@@ -47,18 +51,14 @@ function MainNavbar() {
           <NavItem>
             <NavLink
               href='https://www.zaidamontano.tech/'
-              className='link btn btn-dark'
+              className='link btn btn-dark text-white'
             >
               Portfolio
             </NavLink>
           </NavItem>
+
           <NavItem>
-            <NavLink href='/' className=' link btn btn-dark'>
-              Blog
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href='/' className=' link btn btn-dark'>
+            <NavLink href='/' className=' link btn btn-dark text-white'>
               Contact
             </NavLink>
           </NavItem>
